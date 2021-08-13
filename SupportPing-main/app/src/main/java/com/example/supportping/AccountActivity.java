@@ -79,10 +79,8 @@ public class AccountActivity extends AppCompatActivity {
         String username = et_RegisterId.getText().toString().trim();
         String password = et_RegisterPw.getText().toString().trim();
         String name = et_RegisterName.getText().toString().trim();
-
         // 정보 저장
         RequestRegister requestRegister = new RequestRegister(username, password, name);
-
         retrofitClient = RetrofitClient.getInstance();
         serverAPI = RetrofitClient.getRetrofitInterface();
 
@@ -90,7 +88,7 @@ public class AccountActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<ResponseRegister> call, Response<ResponseRegister> response) {
 
-                System.out.println("성공");
+                System.out.println("");
 
                 if (response.isSuccessful() && response.body() != null) {
 
@@ -102,7 +100,7 @@ public class AccountActivity extends AppCompatActivity {
 
                         finish();
                     } else {
-                        Toast.makeText(AccountActivity.this, "예기치 못한 오류가 발생했습니다.\n고객센터에 문의해주세요.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AccountActivity.this, "예기치 못한 오류가 발생했습니다.\n 고객센터에 문의해주세요.", Toast.LENGTH_SHORT).show();
                     }
 
                 }

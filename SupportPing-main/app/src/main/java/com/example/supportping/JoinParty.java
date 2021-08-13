@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class JoinParty extends AppCompatActivity {
 
+    TextView textView
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

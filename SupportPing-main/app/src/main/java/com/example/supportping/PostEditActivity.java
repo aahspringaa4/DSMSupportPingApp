@@ -117,7 +117,7 @@ public class PostEditActivity extends AppCompatActivity {
         PostData.mp[MainAdapter.pos] = people;
 
 
-        Toast.makeText(PostEditActivity.this, "수정이 완료 되었습니다!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(PostEditActivity.this, "수정이 완료 되었습니다", Toast.LENGTH_SHORT).show();
 
         ServerAPI serverAPI = ApiProvider.getInstance().create(ServerAPI.class);
         ServerRequest post = new ServerRequest(title, content, nowLocation, people);
