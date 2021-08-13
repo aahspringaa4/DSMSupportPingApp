@@ -13,7 +13,6 @@ public class RetrofitClient {
     private static String baseUrl = "http://18.219.215.9:8081/";
 
 
-
     private RetrofitClient() {
         //로그를 보기 위한 Interceptor
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();

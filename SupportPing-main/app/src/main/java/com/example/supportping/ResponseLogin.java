@@ -11,7 +11,6 @@ public class ResponseLogin {
     @SerializedName("User-Id")
     int user_id;
 
-
     public int getUser_id() {
         return user_id;
     }

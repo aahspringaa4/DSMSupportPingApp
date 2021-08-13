@@ -1,7 +1,6 @@
 package com.example.supportping;
 
 public class MainData {
-
     // 게시물 관련
     String title;
     String nickname;

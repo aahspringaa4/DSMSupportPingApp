@@ -15,6 +15,7 @@ public final class ApiProvider {
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
+
         return instance;
     }
 }

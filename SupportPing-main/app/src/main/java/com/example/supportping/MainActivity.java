@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView tv_signUpButton;
     private ImageButton ib_next;
-
     private EditText et_putID;
     private EditText et_putPW;
 

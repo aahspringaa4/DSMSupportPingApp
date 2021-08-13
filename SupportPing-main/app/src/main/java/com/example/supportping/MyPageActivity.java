@@ -20,7 +20,6 @@ import retrofit2.Response;
 public class MyPageActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-
     MainAdapter mainAdapter;
 
     ArrayList<MainData> arrayList;

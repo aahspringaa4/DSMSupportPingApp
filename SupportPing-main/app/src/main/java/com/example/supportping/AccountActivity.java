@@ -23,7 +23,6 @@ public class AccountActivity extends AppCompatActivity {
     EditText et_RegisterId;
     EditText et_RegisterPw;
     ImageButton ib_Register;
-
     RetrofitClient retrofitClient;
     ServerAPI serverAPI;
 
@@ -79,6 +78,7 @@ public class AccountActivity extends AppCompatActivity {
         String username = et_RegisterId.getText().toString().trim();
         String password = et_RegisterPw.getText().toString().trim();
         String name = et_RegisterName.getText().toString().trim();
+
         // 정보 저장
         RequestRegister requestRegister = new RequestRegister(username, password, name);
         retrofitClient = RetrofitClient.getInstance();

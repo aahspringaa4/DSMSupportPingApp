@@ -31,7 +31,6 @@ public class MyPostActivity extends AppCompatActivity {
     public static String editContent;
     public static int  editId;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

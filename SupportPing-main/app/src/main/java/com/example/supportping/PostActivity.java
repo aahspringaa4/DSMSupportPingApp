@@ -40,6 +40,7 @@ public class PostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
 
+
         floor = (Spinner) findViewById(R.id.floor);
         location = (EditText) findViewById(R.id.location);
         NowLocation = (TextView) findViewById(R.id.NowLocation);
