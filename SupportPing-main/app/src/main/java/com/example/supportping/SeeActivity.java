@@ -23,7 +23,6 @@ public class SeeActivity extends AppCompatActivity {
     ImageButton ib_join;
     TextView tv_join;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

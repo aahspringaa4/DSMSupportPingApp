@@ -33,7 +33,6 @@ public class HomeActivity extends AppCompatActivity {
     ServerResponse serverResponse;
 
     RecyclerView recyclerView;
-
     ImageButton ib_add;
 
     MainAdapter mainAdapter;

@@ -15,7 +15,6 @@ public class ServerRequest {
         this.mp = mp;
     }
 
-
     public String getTitle() {
         return title;
     }

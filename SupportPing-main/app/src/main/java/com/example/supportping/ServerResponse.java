@@ -12,4 +12,3 @@ public class ServerResponse {
         return boardInfos;
     }
 }
-

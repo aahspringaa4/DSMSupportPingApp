@@ -11,7 +11,6 @@ public class RequestRegister {
         this.name = name;
     }
 
-
     public String getUsername() {
         return username;
     }
