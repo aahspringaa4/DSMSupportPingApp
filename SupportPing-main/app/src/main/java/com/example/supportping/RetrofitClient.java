@@ -36,7 +36,6 @@ public class RetrofitClient {
         }
         return instance;
     }
-
     public static ServerAPI getRetrofitInterface() {
         return serverAPI;
     }
