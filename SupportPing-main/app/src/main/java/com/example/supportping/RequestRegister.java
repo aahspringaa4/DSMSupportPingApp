@@ -10,6 +10,7 @@ public class RequestRegister {
         this.password = password;
         this.name = name;
     }
+    
 
     public String getUsername() {
         return username;
