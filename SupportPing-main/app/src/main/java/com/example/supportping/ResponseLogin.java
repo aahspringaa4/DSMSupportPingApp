@@ -5,7 +5,6 @@ import android.media.session.MediaSession;
 import com.google.gson.annotations.SerializedName;
 
 public class ResponseLogin {
-
     @SerializedName("Bearer-Token")
     String Token;
 
