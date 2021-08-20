@@ -31,4 +31,5 @@ Retrofit
 
 #### 대표적인 tool
 Gson : Json의 자바 오브젝트의 직력화, 역직렬화를 해줌
+
 RecyclerView : 메모리 사용량을 최소화하면서 UI에 많은 양의 데이터를 표시함
